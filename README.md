@@ -134,8 +134,68 @@ FIN
 ````
 DEFINR numero COMO ENTERO
 NUMERO <- 18
-estaEnRang<-(numero>=10) y (numero <=20) // resultado = true 
+estaenrango<-(numero>=10) y (numero <=20) // resultado = true 
 
 `````
+# CLASE Nº4  EJERCICOS PRACTICOS 
+ ### 1.Escribe un algoritmo en PSeInt que solicite el nombre de un usuario y lo salude.
+ ````
+ALGORITMO hola_usuario
+DEFINIR usuario como cadena
+ESCRIBIR"Ingrese su usuario"
+LEER usuario
+ESCRIBIR"¡HOLA" usuario
+FINALGORITMO
+ ````
+### 2.Crea un programa que pida un número y valide que sea positivo.
 
-  
+````
+ALGORITMO ValidarNumeroPositivo  
+DEFINIR numero COMO REAL  
+// Pedir un número al usuario
+REPETIR  
+ESCRIBIR "Ingrese un número positivo:"  
+LEER numero       
+ // Verificar si el número es negativo o cero
+SI numero <= 0 ENTONCES  
+ ESCRIBIR "Error: El número debe ser positivo. Inténtelo nuevamente."  
+       FIN SI  
+   HASTA QUE numero > 0  
+   // Mostrar el número válido
+   ESCRIBIR "Número válido ingresado:", numero  
+FIN ALGORITMO
+````
+### 3.Desarrolla un algoritmo que solicite tres números y muestre la suma de ellos.
+````
+ALGORITMO sumadetresnumeros  
+DEFINIR num1, num2, num3, suma COMO REAL  
+// Solicitar los números al usuario
+ESCRIBIR "Ingrese el primer número:"  
+LEER num1  
+ESCRIBIR "Ingrese el segundo número:"  
+  LEER num2  
+ESCRIBIR "Ingrese el tercer número:"  
+   LEER num3  
+   // Calcular la suma
+   suma <- num1 + num2 + num3  
+   // Mostrar el resultado
+   ESCRIBIR "La suma de los tres números es:" suma  
+FIN ALGORITMO
+````
+### 4.Implementa una solución que pida la edad de una persona y solo la acepte si es mayor a 0.
+````
+ALGORITMO ValidarEdad  
+DEFINIR edad COMO ENTERO  
+  // Pedir la edad al usuario y validar que sea mayor a 0
+ REPETIR  
+  ESCRIBIR "Ingrese su edad (debe ser mayor a 0):"  
+    LEER edad  
+       // Verificar si la edad es inválida
+     SI edad <= 0 ENTONCES  
+    ESCRIBIR "Error: La edad debe ser un número mayor a 0. Intente de nuevo."  
+     FIN SI  
+   HASTA QUE edad > 0  
+   // Mostrar la edad válida
+   ESCRIBIR "Edad válida ingresada:", edad 
+   FINALGORITMO
+````
