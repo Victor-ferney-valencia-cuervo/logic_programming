@@ -1,6 +1,6 @@
- #EJERCICIOS PRÁCTICOS CLASE N°1
+ # EJERCICIOS PRÁCTICOS CLASE N°1
 
-1. Ejercicio de Descomposición
+### 1. Ejercicio de Descomposición
 
 Problema: Hacer panqueques
 
@@ -12,7 +12,7 @@ Problema: Hacer panqueques
 6. Cuando aparezcan burbujas, cocinar el otro lado.
 
 
- 2. Ejercicio de Abstracción
+### 2. Ejercicio de Abstracción
 
 Un semáforo utiliza 3 colores para regular el tráfico. Estos indican cuándo el conductor debe reducir su velocidad, detenerse o pasar. El semáforo cambia de color después de cierto tiempo para adaptarse al flujo de tráfico.
 
@@ -23,13 +23,13 @@ Los colores significan lo siguiente:
 - Verde: Seguir.
 
 
-3. Diagrama de Flujo
+### 3. Diagrama de Flujo
 ![a6500c5d-c4a3-4466-9766-6303bec117c9](https://github.com/user-attachments/assets/027400f7-d19e-4b53-aae9-8514b617abe8)
 
 
 
 
-4. Ejercicios de Patrones
+### 4. Ejercicios de Patrones
 
 
 lista:3,6,12,24,48,96
@@ -50,9 +50,9 @@ lista:3,6,12,24,48,96
 
 
 
-#Ejercicios Prácticos - Clase N°2
+# Ejercicios Prácticos - Clase N°2
 
-1. Pseudocódigo
+### 1. Pseudocódigo
 
 Algoritmo para determinar si un número es par o impar
 
@@ -66,8 +66,18 @@ INICIO
         ESCRIBIR "El número no es par."
     FIN SI
 FIN
-  
+  ```
+### 2. diagrama de flujo
 
+
+
+
+![8b22d859-cf2c-4d91-8529-b598f9c8acd0](https://github.com/user-attachments/assets/a66c2a55-0185-4e64-a128-af1373bdab45)
+
+
+### 3.Analizar eficiencia de Algoritmos
+
+### 1.buqueda secuensial en una lista
 
 
    
