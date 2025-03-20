@@ -95,4 +95,11 @@ FIN
 - espaci de memoria  o(1)
     
 
-  ### 3.busqueda vinaria de array ordenado 
+  ### 3.busqueda vinaria de array ordenado
+  -se divide la lista a la mitad en cada  paso descartando la mitad donde no esta el elemento
+  ### analisis
+  - Tiempo de Ejecucion o(1) el elemento esta en el medio , o(log n ) se reducen las comparaciones dividiendo la lista en mitades
+  - espacio de memoria o(1) usando solo unas pocas variables 
+
+
+  
