@@ -56,16 +56,15 @@ lista:3,6,12,24,48,96
 
 Algoritmo para determinar si un número es par o impar
 
-```plaintext
+```
 ALGORITMO determinar_par_impar
 INICIO
-    ESCRIBIR "Ingrese un número:"
-    LEER numero
-    SI numero MOD 2 == 0 ENTONCES
-        ESCRIBIR "El número es par."
-    SINO
-        ESCRIBIR "El número no es par."
-    FIN SI
+ESCRIBIR "Ingrese un número:"
+ LEER numero
+SI numero MOD 2 == 0 ENTONCES
+  ESCRIBIR "El número es par."
+SINO ESCRIBIR "El número no es par."
+FIN SI
 FIN
   ```
 ### 2. diagrama de flujo
@@ -99,7 +98,44 @@ FIN
   -se divide la lista a la mitad en cada  paso descartando la mitad donde no esta el elemento
   ### analisis
   - Tiempo de Ejecucion o(1) el elemento esta en el medio , o(log n ) se reducen las comparaciones dividiendo la lista en mitades
-  - espacio de memoria o(1) usando solo unas pocas variables 
+  - espacio de memoria o(1) usando solo unas pocas variables
 
+
+
+
+  # 4.Implementar en pseudocódigo un algoritmo que calcule el factorial de un numero
+```
+  
+ALGORITMO calcular_factorial
+  INICIO
+   LEER numero
+factorial = 1
+PARA i DESDE 1 HASTA numero HACER
+factorial = factorial * i
+FIN PARA
+ESCRIBIR "El factoriar de" numero  "es:" factorial
+FIN
+````
+# CLASE Nº3 EJERCICIOS PRACTICOS 
+
+### 1. Declara una variable para almacenar la edad de una persona y asigna un valor.
+
+- DEFINIR edad COMOENTERO edad <-18
+
+### 2. scribe una expresión que combine operadores aritméticos y relacionales.
+- resultado <-(10+5)*2 > 20 = // resultado = false
+### 3.nvierte el número decimal 13 a binario.
+- 13/2 cociente 6 residuo 1 
+- 6/2 cociente 3 residuo 0
+- 3/2 cociente 1 residuo 1
+- 1/2 cociente 0 residuo 1
+- por lo tanto 13 en binario seria 1101
+### 4.Escribe una expresión que utilice operadores lógicos para verificar si un número está entre 10 y 20.
+````
+DEFINR numero COMO ENTERO
+NUMERO <- 18
+estaEnRang<-(numero>=10) y (numero <=20) // resultado = true 
+
+`````
 
   
