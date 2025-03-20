@@ -57,6 +57,7 @@ lista:3,6,12,24,48,96
 Algoritmo para determinar si un número es par o impar
 
 ```plaintext
+ALGORITMO determinar_par_impar
 INICIO
     ESCRIBIR "Ingrese un número:"
     LEER numero
@@ -77,7 +78,21 @@ FIN
 
 ### 3.Analizar eficiencia de Algoritmos
 
-### 1.buqueda secuensial en una lista
+### 1.busqueda secuensial en una lista
+- es practicamente recorrer una listade inicio a fin
+- en el peor caso se debe  recorrer toda la lista para encontrar el elemento
+  ### analisis
 
+ 
+- Tiempo de Ejecucion o(n) el elemento esta al inicio , o(n) se revisan todos los elementos
+- espacio en memoria o(1)
 
-   
+  ### 2.ordenamiento por burbuja
+  -se compara cada elemonto con los demas e intercambian elementos hasta que la lista este ordenada 
+  ### analisis
+
+- Tiempo de Ejecucion o(n) para cuando la lista de elementos este ordenada , o(n^2)la lista esta invertida
+- espaci de memoria  o(1)
+    
+
+  ### 3.busqueda vinaria de array ordenado 
